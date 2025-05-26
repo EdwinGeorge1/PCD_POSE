@@ -4,7 +4,7 @@ import numpy as np
 from scipy.spatial.transform import Rotation as R
 
 # Load the point cloud
-pcd = o3d.io.read_point_cloud("cup.pcd")
+pcd = o3d.io.read_point_cloud("cup.pcd")  # Replace with your point cloud file
 pcd.estimate_normals()
 
 # Compute oriented bounding box (OBB)
